@@ -4,10 +4,11 @@
       "https://witness-dev01.rootsid.cloud/oobi/BHI7yViNOGWd1X0aKMgxLm4dUgbQDYoCFSJM2U8Hb3cx/controller", 
       "https://witness-dev02.rootsid.cloud/oobi/BOUZ4v-vPMP5KyZQP-d_8B30UHI4KWgXczBgWcRJnnYd/controller",
       "https://witness-dev03.rootsid.cloud/oobi/BNY3LWk2BzX8wXmkXuvpYRVSdfynanwKQwD80KOG00VH/controller",
-      "https://demo.wallet.vlei.tech:3902/oobi/EMGlHNZTCsQ0HoSQ-NgyW6SXafNmfkTx4lt8GKWod2UL/agent/EAUSbpAUGDFVuWGILF7SStpcHRTagl6i3TzdrMbqApFC",
-      "https://nordlei.wallet.vlei.tech:3902/oobi/EPXngvU3KzVaYpbYIP5rlVBj27uzfFzQ7uZnPsUzk3zh/agent/EAm2efdyDiHk-8UJWLoFuSnDJFM8Uxyy0hTQVDRRZe1F",
-      "https://nordlei.wallet.vlei.tech:3902/oobi/ED876QWHdLLhQprK7UOJCmFSPVlUr1Co9jYmi9jOt_G1/agent/EAm2efdyDiHk-8UJWLoFuSnDJFM8Uxyy0hTQVDRRZe1F",
-      "https://nordlei.wallet.vlei.tech:3902/oobi/ELyXTNnk0MIyQ_9x2IrpYX1lYySiEHsdMcgi5E7qwxSA/agent/EAm2efdyDiHk-8UJWLoFuSnDJFM8Uxyy0hTQVDRRZe1F"
+      "https://william.witness.vlei.tech/oobi",
+      "https://wesley.witness.vlei.tech/oobi",
+      "https://whitney.witness.vlei.tech/oobi",
+      "https://wilma.witness.vlei.tech/oobi",
+      "https://wilbur.witness.vlei.tech/oobi"
     ],
     "durls": [
       "http://schemas.rootsid.cloud/oobi/EBNaNu-M9P5cgrnfl2Fvymy4E_jvxxyjb70PRtiANlJy",
@@ -16,22 +17,7 @@
       "http://schemas.rootsid.cloud/oobi/EEy9PkikFcANV1l7EHukCeXqrzT1hNZjGlUk7wuMO5jw",
       "http://schemas.rootsid.cloud/oobi/ENPXp1vQzRF6JwIuS-mp2U8Uf1MoADoP_GqQ62VsDZWY",
       "http://schemas.rootsid.cloud/oobi/EH6ekLjSr8V32WyFbGe1zXjTzFs9PkTYmupJ9H65O14g",
-      "http://schemas.rootsid.cloud/oobi/EBfdlu8R27Fbx-ehrqwImnK-8Cm79sqbAQ4MmvEAYqao",
-      "https://william.witness.vlei.tech/oobi/EPXngvU3KzVaYpbYIP5rlVBj27uzfFzQ7uZnPsUzk3zh/witness/BMn9DacVHdgg66ukO0fYwQx1IV5hCchPd7Gb5zCCQYsv",
-      "https://wesley.witness.vlei.tech/oobi/EPXngvU3KzVaYpbYIP5rlVBj27uzfFzQ7uZnPsUzk3zh/witness/BGNpoM1a8VMMJEZC8DKgiyEsTTviWkgQ6e4f6rRFkoxV",
-      "https://whitney.witness.vlei.tech/oobi/EPXngvU3KzVaYpbYIP5rlVBj27uzfFzQ7uZnPsUzk3zh/witness/BLiMaTh2Mr540wD6FynMc3SaAtHhjOTJfO_j-1E7WwC2",
-      "https://wilma.witness.vlei.tech/oobi/EPXngvU3KzVaYpbYIP5rlVBj27uzfFzQ7uZnPsUzk3zh/witness/BFX3CtauhMYyLOxX44q4yzQfwd4ekmBWF1oteXx8iiWn",
-      "https://wilbur.witness.vlei.tech/oobi/EPXngvU3KzVaYpbYIP5rlVBj27uzfFzQ7uZnPsUzk3zh/witness/BOwl2CUm-5nvVy8krTlSxzHkcQSBAXHYz412Cl-e20xS", 
-      "https://william.witness.vlei.tech/oobi/ED876QWHdLLhQprK7UOJCmFSPVlUr1Co9jYmi9jOt_G1/witness/BMn9DacVHdgg66ukO0fYwQx1IV5hCchPd7Gb5zCCQYsv", 
-      "https://wesley.witness.vlei.tech/oobi/ED876QWHdLLhQprK7UOJCmFSPVlUr1Co9jYmi9jOt_G1/witness/BGNpoM1a8VMMJEZC8DKgiyEsTTviWkgQ6e4f6rRFkoxV", 
-      "https://whitney.witness.vlei.tech/oobi/ED876QWHdLLhQprK7UOJCmFSPVlUr1Co9jYmi9jOt_G1/witness/BLiMaTh2Mr540wD6FynMc3SaAtHhjOTJfO_j-1E7WwC2",
-      "https://wilma.witness.vlei.tech/oobi/ED876QWHdLLhQprK7UOJCmFSPVlUr1Co9jYmi9jOt_G1/witness/BFX3CtauhMYyLOxX44q4yzQfwd4ekmBWF1oteXx8iiWn",
-      "https://wilbur.witness.vlei.tech/oobi/ED876QWHdLLhQprK7UOJCmFSPVlUr1Co9jYmi9jOt_G1/witness/BOwl2CUm-5nvVy8krTlSxzHkcQSBAXHYz412Cl-e20xS",
-      "https://william.witness.vlei.tech/oobi/ELyXTNnk0MIyQ_9x2IrpYX1lYySiEHsdMcgi5E7qwxSA/witness/BMn9DacVHdgg66ukO0fYwQx1IV5hCchPd7Gb5zCCQYsv", 
-      "https://wesley.witness.vlei.tech/oobi/ELyXTNnk0MIyQ_9x2IrpYX1lYySiEHsdMcgi5E7qwxSA/witness/BGNpoM1a8VMMJEZC8DKgiyEsTTviWkgQ6e4f6rRFkoxV",
-      "https://whitney.witness.vlei.tech/oobi/ELyXTNnk0MIyQ_9x2IrpYX1lYySiEHsdMcgi5E7qwxSA/witness/BLiMaTh2Mr540wD6FynMc3SaAtHhjOTJfO_j-1E7WwC2", 
-      "https://wilma.witness.vlei.tech/oobi/ELyXTNnk0MIyQ_9x2IrpYX1lYySiEHsdMcgi5E7qwxSA/witness/BFX3CtauhMYyLOxX44q4yzQfwd4ekmBWF1oteXx8iiWn",
-      "https://wilbur.witness.vlei.tech/oobi/ELyXTNnk0MIyQ_9x2IrpYX1lYySiEHsdMcgi5E7qwxSA/witness/BOwl2CUm-5nvVy8krTlSxzHkcQSBAXHYz412Cl-e20xS" 
+      "http://schemas.rootsid.cloud/oobi/EBfdlu8R27Fbx-ehrqwImnK-8Cm79sqbAQ4MmvEAYqao"
     ],
     "LEIs": [
         "984500E5DEFDBQ1O9038",
