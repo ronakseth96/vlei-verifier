@@ -1,0 +1,34 @@
+# The manifest for the "vlei-verifier" service.
+
+# Your service name will be used in naming your resources like log groups, ECS services, etc.
+name: vlei-verifier
+type: Backend Service
+
+# Configuration for your containers and service.
+image:
+  build:
+   context: .
+   dockerfile: images/verifier.dockerfile
+
+  port: 7676
+  healthcheck:
+     command: ["CMD-SHELL", "curl -f http://localhost:7676/health"]
+     interval: 5s
+     timeout: 3s
+     retries: 5
+     start_period: 2s
+
+# Entrypoint configuration for your service.
+entrypoint: ["verifier", "server", "start", "--config-dir", "scripts", "--config-file", "verifier-config-public.json"]
+
+cpu: 256       # Number of CPU units for the task.
+memory: 512    # Amount of memory in MiB used by the task.
+platform: linux/amd64     # See https://aws.github.io/copilot-cli/docs/manifest/backend-service/#platform
+count:        # Number of tasks that should be running in your service.
+  range: 1-2
+  cooldown:
+    in: 60s
+    out: 30s
+  cpu_percentage: 90
+  memory_percentage: 90
+exec: true     # Enable running commands in your container.

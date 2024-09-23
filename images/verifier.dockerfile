@@ -1,5 +1,7 @@
 FROM weboftrust/keri:1.2.0-dev13
 
+RUN apk update && apk add --no-cache curl
+
 WORKDIR /usr/local/var
 
 RUN mkdir vlei-verifier
