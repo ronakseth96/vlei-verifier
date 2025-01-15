@@ -11,4 +11,4 @@ WORKDIR /usr/local/var/vlei-verifier/
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["verifier", "server", "start", "--config-dir", "scripts", "--config-file", "verifier-config-public.json"]
+ENTRYPOINT verifier server start --config-dir scripts --config-file "${VERIFIER_CONFIG_FILE:-verifier-config-public.json}"
